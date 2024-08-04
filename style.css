@@ -1,0 +1,303 @@
+@font-face{
+	font-family:Bahnschrift Light Condensed;
+	src:url("Bahnschrift.ttf") format("truetype-variations");
+    font-weight: 300;
+    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 75;
+
+}
+@font-face{
+	font-family:Bahnschrift Bold Semi-condensed;
+	src:url(Bahnschrift.ttf);
+    font-weight: 700;
+    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
+}
+@font-face{
+	font-family:Bright Demo;
+	src:url(BrightDemo.otf);
+	
+}
+
+/*breakpoints
+homepage 970ish
+//design 1200
+//web 990
+navbar 820
+*/
+
+@media only screen and (max-width: 820px) {
+	li.space {
+	  margin:0px;
+	  display:none;
+	}
+	.flexbox{
+		display:flex;
+		padding:0px;
+		align-items:center;
+	}
+  }
+  @media only screen and (min-width: 1100px) {
+	li.space {
+	  margin: 1em 4em;
+	  
+	}
+	#top{
+		margin-top:2em;
+	}
+  }
+
+
+body{
+    background-color:#22002d;
+}
+/*
+.mediaViewInfo {
+	--web-view-name: main;
+	--web-view-id: main;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}*/
+a{
+    color:#f6e0cd ;
+}
+a:hover{
+    color:#22002d;
+    background-color:#6b2b4e;
+    text-decoration:none;
+}
+.header{
+    font-family: Bright Demo;
+    color: #f6e0cd;
+    font-size: 5em;
+	line-height:70px;
+	padding:0px;
+	
+}
+#links{
+    font-family: bahnschrift bold semi-condensed;
+    color: #f6e0cd;
+    margin:10px;
+
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+
+}
+#linksActive{
+    font-family: bahnschrift bold semi-condensed;
+    color: #f9a674;
+    margin:10px;
+
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+}
+
+
+img{
+	margin:0.5em;
+}
+
+.space{
+	margin:2em;
+}
+
+.icon{
+	margin:0px;
+	display:inline;
+	height:3.5em;
+}
+.thin{
+	font-family: Bahnschrift light condensed;
+	color:#dc6478;
+	
+}
+
+
+#flexbox{
+	display:flex;
+	padding:0px;
+}
+
+
+/* COLORS 
+
+f6e0cd - pale
+f9a674 - orange
+dc6478 - pink
+dc6478 purple
+22002d - dark
+align-items:stretch;	
+	align-content:center; */
+
+/*MAIN*/
+
+.title{
+	font-family: Bright Demo;	
+	color: #f6e0cd;
+	
+}
+/*.tiny{
+	margin:1em;
+	display:inline;
+	height:6em;
+	align-items:baseline;
+	justify-content:flex-end;
+}*/
+
+#RESUME_ {
+	display:inline;
+	font-weight: bold;
+	font-size: 25px;
+	color:#22002d;
+	font-family: Bahnschrift light condensed;
+	background-color:#f9a674;
+}
+.bold{
+    font-family: Bahnschrift bold semi-condensed;
+	color: #dc6478;
+
+}
+
+
+
+/*APP*/
+#concepts{
+	text-align: center;
+	width:75%;
+    font-family: Bahnschrift light condensed;
+	color: #dc6478;	
+}
+
+/*WEB  35 em*/
+.code{
+	width:100%;
+	background-color:#dc6478;
+	text-align:center;
+
+}
+
+/*add text on hover - js?
+.code:hover{
+	background:fixed;
+	opacity:1;
+	/*position:absolute;
+	font-family: Bahnschrift bold semi-condensed;
+	color: #f6e0cd;
+}*/
+
+/*.text{
+	opacity:0.5;
+	/*position:absolute;
+	
+	color: #f6e0cd;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}*/
+.text:hover{
+	position:absolute;
+	top:200;
+	opacity:1;
+	font-family: Bahnschrift bold semi-condensed;
+	color: #f6e0cd;
+}
+.fixed{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0.4em;
+	
+	/*margin:10em;
+	display:inline;*/
+	font-size: 30em;
+    font-family: Bahnschrift bold semi-condensed;
+	color: #dc6478;
+}
+
+/*#container{
+
+	position: relative;
+	
+}
+.overlay {
+	
+	/*height: 500px;
+	width:200%;
+	position: absolute;
+	height:500%;
+	
+	left: 0;
+	right: 0;
+	opacity:0.5;
+	transition: .5s ease;
+	background-color: #757575;
+  }
+
+  #container:hover .overlay {
+	opacity: 1;
+  }
+  text{
+	color: #f6e0cd;
+	opacity:1;
+  font-size: 5em;
+  position: sticky;
+  top: 50%;
+  left: 150px;
+  
+  text-align: center;
+  }*/
+
+
+/*DESIGN*/
+.short{
+	/*height:20em;*/
+	width:30%;
+}
+
+#center{
+    align-items:center;
+	display:flex;
+	margin:10px;
+}
+#top{
+	width:80%;
+	margin-left:3em;
+}
+
+/*OTHER*/
+
+
+
+/*
+
+
+
+
+	  /*overflow: visible;
+	  background-image: url('imgs/webNewAgain.png');
+	  background-repeat:no-repeat;
+	  display:inline;
+	  /*width:35em;
+	  max-height:1200px;
+	width:750px;
+	max-width:100%;
+	height:auto;
+	
+
+.code:hover{
+	background-image: url('imgs/code1Again.png');
+	background-repeat:no-repeat;
+	/*height: 392px;
+	overflow: visible;
+	display:inline;
+	width:750px;
+	/*width: 1012px;
+    height: 1026px;
+}*/
+
+
+
+
