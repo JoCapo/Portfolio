@@ -1,0 +1,95 @@
+/*@font-face {
+  font-family: "oskar";
+  src: url("myFont.woff2");
+}
+*/
+
+body{
+  background-image: linear-gradient(to bottom right, #4e3864, #720800 );
+  background-color:rgb(240, 238, 226);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin:auto; 
+}
+h1{
+  font-family: oskar, sans-serif;;
+  color:#afc4cd;
+  margin:10px 25px 10px;
+  padding:5px;
+}
+h3{
+  font-family:"oskar";
+  color:#afc4cd;
+  margin:20px 25px 10px;
+  padding:5px;
+  display:inline;
+  margin-top:10%
+  }
+p{
+  background-color:#07132b;
+  font-family:'Trebuchet MS';
+  font-size:95%;
+  color:#afc4cd;
+  margin:10px 25px 10px;
+  padding:5px
+}
+a{
+  font-family:"oskar", sans-serif;
+  text-decoration:none;
+  color:#afc4cd;
+  display:block;
+  padding:5px;
+  margin-left:25px;
+  margin-top:15px; 
+  display:inline;
+}
+a:hover{
+  color:#720800;
+}
+img{
+  margin-right:50px;
+  margin-left:25px;
+  border:5px solid #07132b;
+  border-radius:25px;
+}
+.navbar{
+  margin-bottom:15px;
+  grid-area:nav;
+  
+}
+.gridcontainer{
+  width:100%;
+  display: grid;
+  grid-template-areas: 
+    'nav nav nav'
+    'center center center'
+    'left left right';
+  gap:10px;
+}
+.myWork{
+  height:100%;
+  grid-area:left;
+  border:2px solid #07132b;
+  border-radius:30px;
+}
+.inspo{
+ grid-area:right;
+ height:100%;
+}
+.gridcontainer > div{
+  border:2px solid #07132b;
+  border-radius:30px;
+  background-color:#07132b;
+  padding: 10px;
+  margin:10px;
+}
+.aboutMe{
+  grid-area:center;
+  height:100%;
+}
+.disabled{
+  margin-left:25px;
+  margin-top:15px; 
+  display:inline;
+}
