@@ -1,0 +1,488 @@
+@font-face{
+	font-family:Josefin Sans Thin;
+	src:url(JosefinSans-VariableFont_wght.ttf);
+}
+@font-face{
+	font-family:Peignot;
+	src:url(Peignot.ttf);
+	font-style: bold;
+	font-weight: bold;
+}
+.mediaViewInfo {
+	--web-view-name: HomePage;
+	--web-view-id: HomePage;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: HomePage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#HomePage {
+	position: absolute;
+	width: 2004px;
+	height: 6320px;
+	background-color: #b3f7fd;
+	overflow: hidden;
+	--web-view-name: HomePage;
+	--web-view-id: HomePage;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:pink;
+}
+#Rectangle_1 {
+	fill: rgb(230,145,104,1) ;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 925px;
+	height: 803px;
+	left: 1079px;
+	top: -15px;
+}
+#Rectangle_4 {
+	fill: rgb(211,242,153,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 1999px;
+	height: 224px;
+	left: -619px;
+	top: 1353px;
+}
+#Rectangle_7 {
+	fill: rgb(211,242,153,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 1249px;
+	height: 1013px;
+	left: 762px;
+	top: 2834px;
+}
+#Rectangle_10 {
+	fill: rgb(230,145,104,1) ;
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 1219px;
+	height: 793px;
+	left: -45px;
+	top: 3470px;
+}
+#Rectangle_8 {
+	fill: rgb(230,208,95,1) ;
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 2285px;
+	height: 1457px;
+	left: -106px;
+	top: 4520px;
+}
+#Polygon_1 {
+	fill: transparent;
+	stroke: rgb(222,61,125,1) ;
+	stroke-width: 9px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_1 {
+	overflow: visible;
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	left: 45px;
+	top: 2570px;
+	transform: [object Object] rotate(180deg);
+	transform-origin: center;
+}
+#JoCapo__Jacksonville_FL_32225 {
+	left: 185px;
+	top: 6057px;
+	position: absolute;
+	overflow: visible;
+	width: 316px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgb(0,0,0,1);
+}
+#Contact_me__904400-1836_jcapor {
+	left: 1319px;
+	top: 6057px;
+	position: absolute;
+	overflow: visible;
+	width: 501px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgb(0,0,0,1);
+}
+#n___A_lot_of_my_personal_proje {
+	left: 185px;
+	top: 5061px;
+	position: absolute;
+	overflow: visible;
+	width: 541px;
+	height: 731px;
+	text-align: left;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgb(0,0,0,1);
+}
+#An_early_project_I_made_from_s {
+	left: 1268px;
+	top: 3077px;
+	position: absolute;
+	overflow: visible;
+	width: 552px;
+	height: 340px;
+	text-align: right;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgb(0,0,0,1);
+}
+#Web_Design {
+	left: 1085px;
+	top: 2852px;
+	position: absolute;
+	overflow: visible;
+	width: 735px;
+	height: 172px;
+	text-align: right;
+	font-family: Peignot;
+	font-size: 140px;
+	color: rgb(0,0,0,1);
+}
+#Concepts_for_an_app_that_focus {
+	left: 293px;
+	top: 2367px;
+	position: absolute;
+	overflow: visible;
+	width: 1419px;
+	height: 359px;
+	text-align: center;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: #86a59c;
+}
+#App_Design {
+	left: 638px;
+	top: 1225px;
+	position: absolute;
+	overflow: visible;
+	width: 730px;
+	height: 164px;
+	line-height: 150px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Peignot;
+	font-size: 140px;
+	color: rgb(0,0,0,1);
+}
+#Graphic_and_web_designer__BA_i {
+	left: 185px;
+	top: 592px;
+	position: absolute;
+	overflow: visible;
+	width: 678px;
+	height: 268px;
+	text-align: left;
+	font-family: Josefin Sans Thin;
+	font-style: bold;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(0,0,0,1);
+}
+#Josephine_Caporini {
+	left: 213px;
+	top: 249px;
+	position: absolute;
+	overflow: visible;
+	width: 748px;
+	height: 343px;
+	text-align: left;
+	font-family: Peignot;
+	font-size: 150px;
+	color: rgb(0,0,0,1);
+}
+#webold {
+	position: absolute;
+	width: 1005px;
+	height: 641px;
+	left: 185px;
+	top: 3020px;
+	overflow: visible;
+}
+#webnew {
+	position: absolute;
+	width: 1132px;
+	height: 652px;
+	left: 687px;
+	top: 3710px;
+	overflow: visible;
+}
+#keith_portfolio {
+	position: absolute;
+	width: 540px;
+	height: 540px;
+	left: 185px;
+	top: 4574px;
+	overflow: visible;
+}
+#Scroll_Group_1 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1023px;
+	height: 1417px;
+	left: 796px;
+	top: 4540px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+#Couple_descending {
+	position: absolute;
+	width: 542px;
+	height: 690px;
+	left: 69px;
+	top: 0px;
+	overflow: visible;
+}
+#lyric_page_copy {
+	position: absolute;
+	width: 559px;
+	height: 699px;
+	left: 69px;
+	top: 715px;
+	overflow: visible;
+}
+#gustav_copy {
+	position: absolute;
+	width: 552px;
+	height: 690px;
+	left: 664px;
+	top: 0px;
+	overflow: visible;
+}
+#maya_copy {
+	position: absolute;
+	width: 524px;
+	height: 699px;
+	left: 664px;
+	top: 715px;
+	overflow: visible;
+}
+#bernini_copy {
+	position: absolute;
+	width: 556px;
+	height: 696px;
+	left: 1243px;
+	top: 0px;
+	overflow: visible;
+}
+#spiderverse {
+	position: absolute;
+	width: 495px;
+	height: 692px;
+	left: 69px;
+	top: 722px;
+	overflow: visible;
+}
+#lyric_page_copy_ {
+	position: absolute;
+	width: 556px;
+	height: 695px;
+	left: 1243px;
+	top: 722px;
+	overflow: visible;
+}
+#jclogo {
+	position: absolute;
+	width: 210px;
+	height: 119px;
+	left: 855px;
+	top: 6057px;
+	overflow: visible;
+}
+#Component_2__1 {
+	position: absolute;
+	width: 1634px;
+	height: 103px;
+	left: 185px;
+	top: 66px;
+	overflow: visible;
+}
+#App_Design_ba {
+	left: 945px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	height: 45px;
+	line-height: 50px;
+	margin-top: -2.5px;
+	text-align: center;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(0,0,0,1);
+}
+#Web_Design_bb {
+	left: 1215px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	height: 45px;
+	line-height: 50px;
+	margin-top: -2.5px;
+	text-align: center;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_3 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: round;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 1634px;
+	height: 103px;
+	left: 0px;
+	top: 0px;
+}
+#Scroll_Group_2 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 178.184px;
+	height: 78.068px;
+	left: 14.742px;
+	top: 12.466px;
+	overflow: hidden;
+}
+#Rectangle_9 {
+	position: absolute;
+	width: 178.184px;
+	height: 103.068px;
+	left: 0px;
+	top: -10px;
+	overflow: visible;
+}
+#JoCapo {
+	left: 183px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 505px;
+	height: 45px;
+	text-align: left;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(0,0,0,1);
+}
+#appdesigns {
+	position: absolute;
+	width: 1438px;
+	height: 862px;
+	left: 293px;
+	top: 1447px;
+	overflow: visible;
+}
+#me {
+	position: absolute;
+	width: 854px;
+	height: 887px;
+	left: 857px;
+	top: 249px;
+	overflow: visible;
+}
+#resumebutton {
+	position: absolute;
+	width: 283px;
+	height: 99px;
+	left: 185px;
+	top: 968px;
+	overflow: visible;
+}
+#Rectangle_13 {
+	fill: rgba(211,242,153,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+#RESUME_ {
+	left: 57px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	height: 39px;
+	line-height: 50px;
+	margin-top: -6px;
+	text-align: center;
+	font-family: Josefin Sans Thin;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	color: rgba(0,0,0,1);
+}
