@@ -215,7 +215,8 @@ dc6478 purple
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0.4em;
-	
+	font-weight: 700;
+    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
 	/*margin:10em;
 	display:inline;*/
 	font-size: 30em;
