@@ -7,14 +7,14 @@
 }
 
 @font-face{
-	font-family:Bahnschrift Bold Semi-condensed;
-	src:url("Bahnschrift.ttf") format("truetype-variations");
+	font-family:Bahnschrift bold semi-condensed;
+	src:url("bahnschrift.ttf") format("truetype-variations");
     font-weight: 700;
     font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
 }
 @font-face{
 	font-family:Bright Demo;
-	src:url(BrightDemo.otf);
+	src:url(BrightDemo.otf) format("opentype");
 }
 
 /*breakpoints
@@ -84,7 +84,7 @@ a:hover{
 	
 }
 #links{
-    font-family: Bahnschrift Bold Semi-condensed;
+    font-family: Bahnschrift bold semi-condensed;
     color: #f6e0cd;
     margin:10px;
 
@@ -94,7 +94,7 @@ a:hover{
 
 }
 #linksActive{
-    font-family: Bahnschrift Bold Semi-condensed;
+    font-family: Bahnschrift bold semi-condensed;
     color: #f9a674;
     margin:10px;
 
@@ -162,7 +162,7 @@ dc6478 purple
 	background-color:#f9a674;
 }
 .bold{
-    font-family: Bahnschrift Bold Semi-condensed;
+    font-family: Bahnschrift bold semi-condensed;
 	color: #dc6478;
 
 }
@@ -196,10 +196,8 @@ dc6478 purple
 
 /*.text{
 	opacity:0.5;
-	/*position:absolute;
-	
+	position:absolute;
 	color: #f6e0cd;
-	
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -208,7 +206,7 @@ dc6478 purple
 	position:absolute;
 	top:200;
 	opacity:1;
-	font-family: Bahnschrift Bold Semi-condensed;
+	font-family: Bahnschrift bold semi-condensed;
 	color: #f6e0cd;
 }
 .fixed{
@@ -216,8 +214,8 @@ dc6478 purple
 	position: sticky;
 	top: 0.4em;
 	font-weight: 700;
-    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
-	/*margin:10em;
+    /*font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
+	margin:10em;
 	display:inline;*/
 	font-size: 30em;
     font-family: Bahnschrift Bold Semi-condensed;
@@ -227,7 +225,6 @@ dc6478 purple
 
 /*DESIGN*/
 .short{
-	/*height:20em;*/
 	width:30%;
 }
 
@@ -242,16 +239,5 @@ dc6478 purple
 }
 
 /*OTHER*/
-
-
-
-
-
-
-
-
-	
-
-
 
 
