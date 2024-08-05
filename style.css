@@ -1,20 +1,20 @@
 @font-face{
-	font-family:Bahnschrift Light Condensed;
-	src:url(bahnschrift.ttf) format("truetype-variations");
+	src:url('bahnschrift.ttf') format("truetype-variations");
+	font-family:"Bahnschrift light condensed";
     font-weight: 300;
-    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 75;
+    font-variation-settings: "wght" 300 "BASE" 500, "SPAC" 200, "wdth" 75;
 
 }
+
 @font-face{
-	font-family:Bahnschrift Bold Semi-condensed;
-	src:url(Bahnschrift.ttf);
+	font-family:"Bahnschrift Bold Semi-condensed";
+	src:url('Bahnschrift.ttf');
     font-weight: 700;
-    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
+    font-variation-settings: "wght" 700 "BASE" 500, "SPAC" 200, "wdth" 87.7;
 }
 @font-face{
-	font-family:Bright Demo;
 	src:url(BrightDemo.otf);
-	
+	font-family:Bright Demo;
 }
 
 /*breakpoints
@@ -46,7 +46,7 @@ navbar 820
   }
 
   :root {
-	--web-view-ids: HomePage;
+	--web-view-ids: main;
 }
 * {
 	margin: 0;
@@ -84,7 +84,7 @@ a:hover{
 	
 }
 #links{
-    font-family: bahnschrift bold semi-condensed;
+    font-family: Bahnschrift Bold Semi-condensed;
     color: #f6e0cd;
     margin:10px;
 
@@ -94,7 +94,7 @@ a:hover{
 
 }
 #linksActive{
-    font-family: bahnschrift bold semi-condensed;
+    font-family: Bahnschrift Bold Semi-condensed;
     color: #f9a674;
     margin:10px;
 
@@ -136,9 +136,7 @@ f6e0cd - pale
 f9a674 - orange
 dc6478 - pink
 dc6478 purple
-22002d - dark
-align-items:stretch;	
-	align-content:center; */
+22002d - dark */
 
 /*MAIN*/
 
@@ -164,7 +162,7 @@ align-items:stretch;
 	background-color:#f9a674;
 }
 .bold{
-    font-family: Bahnschrift bold semi-condensed;
+    font-family: Bahnschrift Bold Semi-condensed;
 	color: #dc6478;
 
 }
@@ -210,7 +208,7 @@ align-items:stretch;
 	position:absolute;
 	top:200;
 	opacity:1;
-	font-family: Bahnschrift bold semi-condensed;
+	font-family: Bahnschrift Bold Semi-condensed;
 	color: #f6e0cd;
 }
 .fixed{
@@ -221,42 +219,9 @@ align-items:stretch;
 	/*margin:10em;
 	display:inline;*/
 	font-size: 30em;
-    font-family: Bahnschrift bold semi-condensed;
+    font-family: Bahnschrift Bold Semi-condensed;
 	color: #dc6478;
 }
-
-/*#container{
-
-	position: relative;
-	
-}
-.overlay {
-	
-	/*height: 500px;
-	width:200%;
-	position: absolute;
-	height:500%;
-	
-	left: 0;
-	right: 0;
-	opacity:0.5;
-	transition: .5s ease;
-	background-color: #757575;
-  }
-
-  #container:hover .overlay {
-	opacity: 1;
-  }
-  text{
-	color: #f6e0cd;
-	opacity:1;
-  font-size: 5em;
-  position: sticky;
-  top: 50%;
-  left: 150px;
-  
-  text-align: center;
-  }*/
 
 
 /*DESIGN*/
@@ -279,32 +244,12 @@ align-items:stretch;
 
 
 
-/*
 
 
 
 
-	  /*overflow: visible;
-	  background-image: url('imgs/webNewAgain.png');
-	  background-repeat:no-repeat;
-	  display:inline;
-	  /*width:35em;
-	  max-height:1200px;
-	width:750px;
-	max-width:100%;
-	height:auto;
+
 	
-
-.code:hover{
-	background-image: url('imgs/code1Again.png');
-	background-repeat:no-repeat;
-	/*height: 392px;
-	overflow: visible;
-	display:inline;
-	width:750px;
-	/*width: 1012px;
-    height: 1026px;
-}*/
 
 
 
