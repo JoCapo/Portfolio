@@ -1,15 +1,15 @@
 @font-face{
 	font-family:Bahnschrift Light Condensed;
 	src:url("Bahnschrift.ttf") format("truetype-variations");
-    /*font-weight: 300;
-    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 75;*/
+    font-weight: 300;
+    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 75;
 
 }
 @font-face{
 	font-family:Bahnschrift Bold Semi-condensed;
 	src:url(Bahnschrift.ttf);
-    /*font-weight: 700;
-    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;*/
+    font-weight: 700;
+    font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
 }
 @font-face{
 	font-family:Bright Demo;
@@ -45,7 +45,15 @@ navbar 820
 	}
   }
 
-
+  :root {
+	--web-view-ids: HomePage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
 body{
     background-color:#22002d;
 }
