@@ -14,7 +14,7 @@
 }
 @font-face{
 	font-family:Bright Demo;
-	src:url(BrightDemo.otf) format("opentype");
+	src:url("BrightDemo.otf") format("opentype");
 }
 
 /*breakpoints
