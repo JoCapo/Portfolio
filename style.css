@@ -28,6 +28,13 @@ navbar 820
 		display:block;
 		flex-wrap:nowrap;
 	}
+	.problems{
+		display:flex;
+    	-ms-flex-wrap: wrap;
+    	flex-wrap: wrap;
+    	margin-right: -15px;
+    	margin-left: -15px;
+	}
 	#flexbox{
 		display:block;
 		flex-direction:column;
@@ -161,6 +168,11 @@ dc6478 purple
 	color: #f6e0cd;
 	
 }
+.problems{
+	margin-left:4em;
+	margin-top:0px;
+
+}
 /*.tiny{
 	margin:1em;
 	display:inline;
@@ -191,6 +203,10 @@ dc6478 purple
 	width:75%;
     font-family: Bahnschrift light condensed;
 	color: #dc6478;	
+}
+
+.align-center{
+	align-self: center;
 }
 
 /*WEB  35 em*/
