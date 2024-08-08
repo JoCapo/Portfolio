@@ -23,8 +23,16 @@ homepage 970ish
 //web 990
 navbar 820
 */
+@media only screen and (max-width: 476px) {
+	.row{
+		display:inline;
+	}
+	.flexbox{
+		display:inline;
+	}
+  }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 852px) {
 	li.space {
 	  margin:0px;
 	  display:none;
