@@ -207,6 +207,10 @@ dc6478 purple
 	align-self: center;
 }
 
+.appimg{
+	width: 75%;
+}
+
 /*WEB  35 em*/
 .code{
 	width:100%;
