@@ -25,9 +25,11 @@ navbar 820
 */
 @media only screen and (max-width: 476px) {
 	.row{
+		display:block;
 		flex-wrap:nowrap;
 	}
 	.flexbox{
+		display:block;
 		flex-direction:column;
 	}
 	.container{
