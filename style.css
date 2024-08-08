@@ -28,13 +28,6 @@ navbar 820
 		display:block;
 		flex-wrap:nowrap;
 	}
-	.problems{
-		display:flex;
-    	-ms-flex-wrap: wrap;
-    	flex-wrap: wrap;
-    	margin-right: -15px;
-    	margin-left: -15px;
-	}
 	#flexbox{
 		display:block;
 		flex-direction:column;
@@ -42,7 +35,7 @@ navbar 820
 	.container{
 		display:inline;
 	}
-	.align-self-center{
+	.align-center{
 		align-self:auto;
 	}
   }
@@ -52,7 +45,7 @@ navbar 820
 	  margin:0px;
 	  display:none;
 	}
-	.flexbox{
+	#flexbox{
 		display:flex;
 		padding:0px;
 		align-items:center;
@@ -169,9 +162,9 @@ dc6478 purple
 	
 }
 .problems{
-	margin-left:4em;
-	margin-top:0px;
-
+	display:flex;
+	padding:0px;
+	align-items:center;
 }
 /*.tiny{
 	margin:1em;
