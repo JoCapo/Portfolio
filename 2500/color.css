@@ -93,3 +93,7 @@ img{
   margin-top:15px; 
   display:inline;
 }
+.notmine{
+  cursor:not-allowed;
+  pointer-events:none;
+}
