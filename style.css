@@ -181,10 +181,9 @@ dc6478 purple
 
 #RESUME_ {
 	display:inline;
-	font-weight: bold;
 	font-size: 25px;
 	color:#22002d;
-	font-family: Bahnschrift light condensed;
+	font-family: Bahnschrift bold semi-condensed;
 	background-color:#f9a674;
 }
 .bold{
@@ -210,6 +209,13 @@ dc6478 purple
 .appimg{
 	width: 75%;
 	align-self:center;
+}
+
+#button{
+	align-self:center;
+	color:#22002d;
+	font-family: Bahnschrift bold semi-condensed;
+	background-color:#f9a674;
 }
 
 /*WEB  35 em*/
