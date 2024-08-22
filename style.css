@@ -225,6 +225,9 @@ dc6478 purple
 	text-align:center;
 
 }
+.web-link:hover{
+	background-color:none;
+}
 
 /*add text on hover - js?
 .code:hover{
