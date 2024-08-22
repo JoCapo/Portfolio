@@ -290,6 +290,11 @@ dc6478 purple
     margin-right: -15px;
     margin-left: -15px;
 }
+.star{
+	font-family:Bahnschrift light condensed;
+	color: #dc6478;
+	align-items:baseline;
+}
 
 /*OTHER*/
 
