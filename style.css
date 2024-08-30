@@ -138,11 +138,6 @@ img{
 	display:inline;
 	height:3.5em;
 }
-.thin{
-	font-family: Bahnschrift light condensed;
-	color:#dc6478;
-	
-}
 
 
 #flexbox{
@@ -186,13 +181,18 @@ dc6478 purple
 	font-family: Bahnschrift bold semi-condensed;
 	background-color:#f9a674;
 }
-.bold{
-    font-family: Bahnschrift bold semi-condensed;
-	color: #dc6478;
 
+
+h6, p{
+	font-family: Bahnschrift bold semi-condensed;
+	color:#dc6478;
 }
 
-
+.thin{
+	font-family: Bahnschrift light condensed;
+	color:#dc6478;
+	
+}
 
 /*APP*/
 #concepts{
@@ -262,8 +262,7 @@ dc6478 purple
 	margin:10em;
 	display:inline;*/
 	font-size: 30em;
-    font-family: Bahnschrift Bold Semi-condensed;
-	color: #dc6478;
+    
 }
 
 
