@@ -91,7 +91,7 @@ body{
 a{
     color:#f6e0cd ;
 }
-a:hover{
+.nav-link:hover{
     color:#22002d;
     background-color:#6b2b4e;
     text-decoration:none;
@@ -256,7 +256,7 @@ h6, p{
 .fixed{
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	top: 0.4em;
+	top: 45%;
 	font-weight: 700;
     /*font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
 	margin:10em;
