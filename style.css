@@ -49,7 +49,6 @@ navbar 820
 	  display:none;
 	}
 	#flexbox{
-		display:block;
 		flex-direction:column;
 		padding:0px;
 	}
@@ -188,9 +187,10 @@ h6, p{
 	color:#dc6478;
 }
 
-.thin{
+h5{
 	font-family: Bahnschrift light condensed;
 	color:#dc6478;
+	font-size:17px;
 	
 }
 
@@ -260,8 +260,8 @@ h6, p{
 	font-weight: 700;
     /*font-variation-settings: "BASE" 500, "SPAC" 200, "wdth" 87.7;
 	margin:10em;
-	display:inline;*/
-	font-size: 30em;
+	display:inline;
+	font-size: 30em;*/
     
 }
 
