@@ -87,6 +87,17 @@ body{
 	--web-application: true;
 	--web-enable-deep-linking: true;
 }*/
+section{
+	position:relative;
+	animation-name:slide;
+	animation-duration:0.75s;
+	animation-delay:0s;
+}
+@keyframes slide{
+	0%   {opacity:0; right:-100px;}
+	100% {opacity:1; right:0px;}
+}
+
 a{
     color:#f6e0cd ;
 }
