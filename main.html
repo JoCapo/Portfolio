@@ -1,18 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Caporini Portfolio</title>
+<script src="script.js"></script> 
 <link rel="shortcut icon" href="./imgs/jcapologo copy.ico" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style.css"/>
 
 </head>
 <body>
-<div >
+<nav>
     
-    <ul class="nav justify-content-center">
+    <ul class="nav fixed-top justify-content-center">
       <li class="nav-item">
         <img src="imgs/jcapologo copy.ico" class="icon" />
       </li>
@@ -22,20 +24,20 @@
       <li class="space"></li>
       
       <li class="nav-item">
-        <a class="nav-link active" id="linksActive" href="main.html"> Home </a>
+        <a class="nav-link active" id="links" href="#HOME"> Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="links" href="app.html">App Design</a>
+        <a class="nav-link" id="links" href="#APP">App Design</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="links" href="web.html">Web Design</a>
+        <a class="nav-link" id="links" href="#WEB">Web Design</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="links" href="design.html">Personal projects</a>
+        <a class="nav-link" id="links" href="#DESIGN">Personal projects</a>
        </li>
     </ul>
-</div>
-<section>
+  </nav>
+<section ID="HOME">
  <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -70,6 +72,96 @@
     </div>
   </div>
 </div>
+</section>
+<!--APP-->
+<section ID="APP">
+  <div class="d-flex flex-column" >
+      <h1 class="header align-self-center p-2" > App Design </h1>
+      <!--add wireframes, show progress class="align-center p-2"  -->
+        <img src="imgs/wireframes2.png" class="appimg">
+        
+        <a href="https://www.figma.com/proto/xPglcRKXB4hPortEKfjutO/Wireframes?node-id=0-1&t=Gm9EtkWFO6Cp83wC-1" id="button" class="nav-link" target="_blank">
+          CLICK HERE TO SEE PROTOTYPE</a>
+        <!--<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FxPglcRKXB4hPortEKfjutO%2FWireframes%3Fnode-id%3D0-1%26t%3DGm9EtkWFO6Cp83wC-1" allowfullscreen></iframe>-->
+       <div class="align-self-center p-2" id="concepts">
+        <p>SCREENSHOTS OF THE WIREFRAME MOCKUPS I CREATED FOR A FINANCIAL HELP APP. THESE WERE CREATED TO SHOW THE FLOW FROM THE LOG IN PAGE TO THE CREDIT HELP SECTION OF THE APP. MADE IN FIGMA IN 2024 FOR A MINI CASE STUDY IN A UI/UX COURSE I WAS TAKING. </p> 
+      </div>
+  
+      <img src="imgs/appdesigns@2x.png"   class="appimg" />
+    <div class="align-self-center p-2" id="concepts" >
+      <p>CONCEPTS FOR AN APP THAT FOCUSES ON HOUSEHOLD AND COUPLE ORGANIZATION. MOCKUPS OF THE INTERFACE WERE MADE IN ADOBEXD FOR A CLASS PROJECT IN 2022. SHOWN ARE THE OPENING PAGE WHERE YOU LOG IN OR CREATE AN ACCOUNT, THE HOMEPAGE WHERE RECENT ACTIVITY AND UPCOMING EVENTS ARE SHOWN, AND THE LIST PAGE WHERE THE USER CAN ORGANIZE AND SHARE LISTS WITH OTHERS IN THE HOUSEHOLD. 
+      </p>
+    </div>
+  </div>
+</section>
+<!--WEB-->
+<section ID="WEB">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm" >
+        <h1 class="header"> Web Design </h1>
+        <div class="fixed" >
+          <p > (ABOVE) AN EARLY PROJECT I MADE FROM SCRATCH TO TALK ABOUT MYSELF AND MY WORK. MADE IN VSC WITH RAW HTML AND CSS FOR A CLASS PROJECT IN 2020. <br/>
+            <br/> (BELOW) MY OLD PORTFOLIO USED TO SHOW MY WORK, DESIGNED IN 2023 USING PHOTOSHOP. IMPLEMENTED IN ADOBE XD AND DEPLOYED USING FIREBLADE AND GITHUB.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm">
+        
+        <div>
+          <!--click and go to website, have to embedd more code into folder :(
+          -->
+          <a href="2500/homepage.html" target="_blank" class="web-link">
+          <img src="imgs/webNew.png" onmouseover="this.src='imgs/webNewHover.png';" onmouseout="this.src='imgs/webNew.png';" class="code"/>
+          </a>
+        </div>
+        <div >
+          
+          <a href="PortfolioCapo/Portfolio.html" target="_blank" class="web-link">
+            <img src="imgs/PortfolioOld.png" onmouseover="this.src='imgs/PortfolioOldHover.png';" onmouseout="this.src='imgs/PortfolioOld.png';" class="code"/>
+            <!--<div class="overlay">
+              <div class="text">CLICK HERE TO SEE MORE</div>
+            </div>-->
+            
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!--DESIGN-->
+<section ID="DESIGN">
+  <div class="container">
+    <div id="flexbox">
+      <div>
+      <h1 class="header" id="center">Personal Projects</h1>
+      </div>
+      <div >
+        <p id="top"> A LOT OF MY PERSONAL PROJECTS ARE MORE GRAPHIC DESIGN FOCUSED AND TAKE INSPIRATION FROM MUSIC OR ART PIECES I LIKE.<br />
+           A PROJECT I UNDERTOOK WAS TAKING CLASSIC ART PIECES AND IMAGINING THEM IN A DIFFERENT CONTEXT BY INFUSING THEM WITH MODERN BACKGROUNDS, CREATING A VIBRANT JUXTAPOSITION OF OLD AND NEW. I ALSO ENJOY WORKING WITH TYPOGRAPHY AND LAYERING EFFECTS TO GET AN OLD PRINT AESTHETIC. AS SEEN IN MY WORKS WHERE I CONVERT SONGS I LIKE INTO BOOK COVERS OR POSTER DESIGNS. <br/>
+           **BECAUSE THESE ARE ALL UNOFFICIAL SOME OF THE GRAPHICS USED ARE NOT MY OWN.**
+           </p>
+        </div>
+    </div>
+    <!--hover images w text about each piece?
+    onmouseover="this.src='imgs/yourbodyvcr.jpg';" onmouseout="this.src='imgs/maya_copy.png';"
+    onmouseover="this.src='imgs/berthe_copy.png';" onmouseout="this.src='imgs/Couple_descending.png';"
+    
+    animations - https://michalsnik.github.io/aos/ or bootstrap
+    -->
+    <div class="gallery" data-mdb-animation-init="" data-mdb-animation="fade-in-up"  data-mdb-animation-start="onLoad" data-mdb-animation-initialized="true" style="animation-duration: 500ms;">
+      <img src="imgs/Couple_descending.png" class="short"/> <p class="star">*</p>
+      <img src="imgs/spiderverse2.png" onmouseover="this.src='imgs/spiderverse.png';" onmouseout="this.src='imgs/spiderverse2.png';" class="short"/>
+      <img src="imgs/showposter@2x.png" onmouseover="this.src='imgs/chups.png';" onmouseout="this.src='imgs/showposter@2x.png';"class="short" />
+    </div>
+    <div class="gallery" data-mdb-animation-init data-mdb-animation-start="onScroll"  data-mdb-animation="fade-in-up">
+      <!--<img src="imgs/gustav_copy.png" class="short" />-->
+      <img src="imgs/bernini_copy.png" onmouseover="this.src='imgs/gustav_copy.png';" onmouseout="this.src='imgs/bernini_copy.png';" class="short"/> <p class="star">*</p>
+      <img src="imgs/suburbialyric2.png" onmouseover="this.src='imgs/suburbialyric1.png';" onmouseout="this.src='imgs/suburbialyric2.png';"class="short"/>
+      <img src="imgs/maya_copy.png" class="short"/> <p class="star">*</p>
+    </div>
+  </div>
 </section>
 </body>
 

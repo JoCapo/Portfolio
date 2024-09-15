@@ -72,10 +72,17 @@ navbar 820
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
+	scroll-behavior: smooth;
 }
 body{
     background-color:#22002d;
+	padding:55px;
 }
+nav li a.active {
+	color:#f9a674;
+	background-color: #6b2b4e;
+  }
+
 
 /*
 .mediaViewInfo {
@@ -87,15 +94,21 @@ body{
 	--web-application: true;
 	--web-enable-deep-linking: true;
 }*/
+
 section{
 	position:relative;
 	animation-name:slide;
 	animation-duration:0.75s;
 	animation-delay:0s;
+	padding:55px;
 }
 @keyframes slide{
 	0%   {opacity:0; right:-100px;}
 	100% {opacity:1; right:0px;}
+}
+
+.nav{
+	background-color:#22002d;
 }
 
 a{
@@ -124,7 +137,7 @@ a{
     border-width: 0;
 
 }
-#linksActive{
+.active{
     font-family: Bahnschrift bold semi-condensed;
     color: #f9a674;
     margin:10px;
