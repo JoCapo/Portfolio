@@ -222,12 +222,12 @@ dc6478 purple
 
 h6, p{
 	font-family: Bahnschrift bold semi-condensed;
-	color:#dc6478;
+	color:#f6e0cd;
 }
 
 h5{
 	font-family: Bahnschrift light condensed;
-	color:#dc6478;
+	color:#f6e0cd;
 	font-size:17px;
 	
 }
@@ -237,7 +237,7 @@ h5{
 	text-align: center;
 	width:75%;
     font-family: Bahnschrift light condensed;
-	color: #dc6478;	
+	color: #f6e0cd;	
 }
 
 .align-center{
@@ -259,7 +259,7 @@ h5{
 /*WEB  35 em*/
 .code{
 	width:100%;
-	background-color:#dc6478;
+	background-color:#f6e0cd;
 	text-align:center;
 
 }
