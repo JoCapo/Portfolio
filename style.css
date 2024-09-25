@@ -22,6 +22,20 @@ homepage 970ish
 //design 1200
 //web 990
 navbar 820
+
+pink #dc6478; - WHITE #B3F3F3
+orange #f9a674; (lgt blue)
+purpl #6b2b4e;
+dark #22002d;
+light #f6e0cd - red #E03C41
+
+#C00045 RED #E03C41
+#00364C DARK #042E2E
+#EDD111 YELLOW #F9DC47
+#000000 BLCK
+#FFFFFF WHITE #B3F3F3
+ANIMATION TO ON SCROLL
+FIX JAVASCRIPT
 */
 @media only screen and (max-width: 476px) {
 	.gallery{
