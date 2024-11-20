@@ -93,8 +93,8 @@ body{
 	padding:55px;
 }
 nav li a.active {
-	color:#95646c;
-	background-color: #625b6b;
+	color:#8bc5b2;
+	background-color: #8f3028;
   }
 
 
@@ -130,12 +130,12 @@ a{
 }
 .nav-link:hover{
     color:#1e242b;
-    background-color:#625b6b;
+    background-color:#8f3028;
     text-decoration:none;
 }
 .header{
     font-family: Bright Demo;
-    color: #8f3028;
+    color: #8bc5b2;
     font-size: 5em;
 	line-height:70px;
 	padding:0px;
@@ -204,7 +204,7 @@ dc6478 purple
 
 .title{
 	font-family: Bright Demo;	
-	color: #8f3028;
+	color: #8bc5b2;
 	
 }
 .problems{
@@ -225,7 +225,7 @@ dc6478 purple
 	font-size: 25px;
 	color:#8bc5b2;
 	font-family: Bahnschrift bold semi-condensed;
-	background-color:#95646c;
+	background-color:#8f3028;
 }
 
 
@@ -262,7 +262,7 @@ h5{
 	align-self:center;
 	color:#8bc5b2;
 	font-family: Bahnschrift bold semi-condensed;
-	background-color:#95646c;
+	background-color:#8f3028;
 }
 
 /*WEB  35 em*/
